@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "miniconda3/envs/general/Lib/site-packages/jupyterlab_widgets/labextension/",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - miniconda3/envs/general/Lib/site-packages/jupyterlab_widgets/labextension",
+			"detail": "jlpm run build:lib && jlpm run build:labextension:dev"
+		}
+	]
+}
